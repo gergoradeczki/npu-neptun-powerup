@@ -3,7 +3,7 @@ const storage = require("./storage");
 
 const modules = [
   // Login page
-  require("./modules/autoLogin"),
+  //require("./modules/autoLogin"),
   require("./modules/loginRetry"),
   require("./modules/loginBanner"),
 
