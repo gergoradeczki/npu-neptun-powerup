@@ -22,7 +22,7 @@ function showLoginBanner() {
 
   $(
     `<span id="npuStatus" style="font-weight: normal">` +
-      `<a href="https://github.com/solymosi/npu" target="_blank">Neptun PowerUp!</a> ` +
+      `<a href="https://github.com/gergoradeczki/npu" target="_blank">Neptun PowerUp!</a> ` +
       `v${GM.info.script.version}` +
       `</span>`
   ).appendTo("#div_login_right_side .login_info_version");
