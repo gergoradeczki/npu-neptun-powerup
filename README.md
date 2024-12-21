@@ -21,7 +21,7 @@ A program **felturbózza a Neptun-odat**: gyorsabb tárgy- és vizsgafelvétel, 
 * Legfrissebb verzió: **2.4.1**
 * Kiadás dátuma: **2024. augusztus 23.**
 
-Ha tudod, mit csinálsz, [kattints ide a telepítéshez](https://github.com/solymosi/npu/releases/latest/download/npu.user.js).<br>
+Ha tudod, mit csinálsz, [kattints ide a telepítéshez](https://github.com/gergoradeczki/npu/releases/latest/download/npu.user.js).<br>
 Egyébként olvasd el lent a telepítési útmutatót.
 
 ## Telepítés
@@ -35,10 +35,10 @@ A telepítéssel elfogadod a [használat feltételeit](#licensz) és az [adatvé
     * [Microsoft Edge](https://microsoftedge.microsoft.com/insider-addons/detail/iikmkjmpaadaobahmlepeloendndfphd)
     * [Opera](https://addons.opera.com/en/extensions/details/tampermonkey-beta)
     * [Safari](https://apps.apple.com/us/app/tampermonkey/id1482490089)
-1. _Chrome, Opera és Edge alatt:_ [kapcsold be a fejlesztői módot](https://www.tampermonkey.net/faq.php#Q209) a beállításokban.
-1. Most már telepítheted a Neptun PowerUp! szkriptet. Ehhez [kattints ide](https://github.com/solymosi/npu/releases/latest/download/npu.user.js).
-1. A megjelenő oldalon kattints az **Install** gombra.
-1. Lépj be a Neptun-ra, és használd egészséggel.
+2. _Chrome, Opera és Edge alatt:_ [kapcsold be a fejlesztői módot](https://www.tampermonkey.net/faq.php#Q209) a beállításokban.
+3. Most már telepítheted a Neptun PowerUp! szkriptet. Ehhez [kattints ide](https://github.com/gergoradeczki/npu/releases/latest/download/npu.user.js).
+4. A megjelenő oldalon kattints az **Install** gombra.
+5. Lépj be a Neptun-ra, és használd egészséggel.
 
 ## Mit tud?
 
@@ -54,15 +54,15 @@ A szkript megakadályozza, hogy a Neptun kidobjon néhány percenként, megáll�
 
 **Figyelem!** Mivel a szkript a böngészőben fut, bizonyos típusú kidobásokat nem tud megakadályozni (pl. erős túlterheltség, IP cím változás vagy a szerver újraindítása esetén). Ezzel kapcsolatban nem kérek hibajelentéseket.
 
-#### Bejelentkezési adatok tárolása
+#### ~~Bejelentkezési adatok tárolása~~
 
-A szkript tetszőleges számú felhasználónév/jelszó páros tárolására képes, hogy a belépés csak egy kattintás legyen. A telepítés után lépj be a Neptun-ra. A szkript meg fogja kérdezni, hogy mentse-e a belépési adataidat.
+~~A szkript tetszőleges számú felhasználónév/jelszó páros tárolására képes, hogy a belépés csak egy kattintás legyen. A telepítés után lépj be a Neptun-ra. A szkript meg fogja kérdezni, hogy mentse-e a belépési adataidat.~~
 
-**Figyelem!** Az adatokat a program a helyi gépen, titkosítás nélkül tárolja, ezért – bár a jelszó kiolvasása némi hozzáértést igényel – csak olyan gépen használd ezt a funkciót, amelyhez más nem férhet hozzá.
+~~**Figyelem!** Az adatokat a program a helyi gépen, titkosítás nélkül tárolja, ezért – bár a jelszó kiolvasása némi hozzáértést igényel – csak olyan gépen használd ezt a funkciót, amelyhez más nem férhet hozzá.~~
 
-#### Automatikus bejelentkezés
+#### ~~Automatikus bejelentkezés~~
 
-Ha van legalább egy eltárolt felhasználónév/jelszó páros, a szkript a bejelentkezési oldalon néhány másodperc várakozás után automatikusan beléptet.
+~~Ha van legalább egy eltárolt felhasználónév/jelszó páros, a szkript a bejelentkezési oldalon néhány másodperc várakozás után automatikusan beléptet.~~
 
 #### Felturbózott szabad helyre várakozás
 
@@ -120,6 +120,10 @@ Eleged van abból, hogy minden egyes alkalommal be kell állítanod, hogy 500 el
 
 * **Újdonság:** A belépéskor mostantól lehetőség van bekapcsolni az automatikus átirányítást a legutóbb megtekintett Neptun oldalra. – _FeaXR_
 * **Fejlődés:** A fejléc eltüntetéséhez a szkript mostantól a Neptun beépített funkcióját használja, így az szükség esetén ismét megjeleníthető. – _FeaXR_
+
+#### 2022. január 14.
+
+* **Újdonság:** Bejelentkezési adatok mentése dialógus kikapcsolásra került.
 
 #### 2021. december 21.
 
